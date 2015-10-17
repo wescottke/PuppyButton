@@ -33,7 +33,7 @@ html, body {
 	height: 100%;
 	text-align: center;
 	line-height: 100px;
-	font-size: 36px;
+	font-size: 20px;
 	color: #80A592;
 	transform: rotate(0deg);
 	transition:	.15s linear transform;
@@ -76,6 +76,11 @@ html, body {
 	border-radius: 14px;
 	background-color: rgba(176, 218, 196, .71);
 	position: absolute;
+}
+
+.puppy-wrapper{
+	position: relative;
+	margin: 50px;
 }
 
 @keyframes dot-animation {
